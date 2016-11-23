@@ -1,0 +1,441 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+h1{
+	font-size: 60px;
+	color: #fff;
+	font-family:"ProximaNovaLight";
+	text-align: center;
+	letter-spacing: 35px;
+	padding-top: 19%;
+}
+
+h2{
+	font-size: 60px;
+	color: #fff;
+	font-family:"ProximaNovaLight";
+}
+
+.top_line_mnu a{
+	font-size: 18px;
+	color: #fff;
+	font-family:"ProximaNovaSemibold";
+}
+
+p{
+	font-size: 30px;
+	color: #f84545;
+	font-family:"ProximaNovaBold";
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+/*
+==================================================================================
+Header
+==================================================================================
+*/
+
+.head{
+	background: url(../images/HeaderBG.png);
+	min-height: 983px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	-webkit-background-size: cover;
+	background-size: cover; 
+	position: relative;
+}
+
+.top_line_mnu ul{
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.top_line_mnu li{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #fff;
+	margin-right: 30px;
+	letter-spacing: 5px;
+	margin-top: 30px;
+}
+
+.top_line_mnu a:hover{
+	color: #f84545;
+}
+
+.top_line_mnu{
+	margin-top: 40px;
+}
+
+
+.logo{
+	float: left;
+} 
+
+
+.STÜSSY2014 {
+	text-align: center;
+}
+
+.STÜSSY2014 a {
+	font-size: 30px;
+	color: #f84545;
+	font-family:"ProximaNovaBold";
+}
+
+.STÜSSY2014 a:hover{
+	color: #fff;
+}
+
+.nav_icon{
+	font-size: 32px;
+	padding-top: 20px;
+	background: transparent;
+	border: none;
+	color: #fff;
+	float: right;
+}
+
+.down{
+	color: #fff;
+	font-size: 94px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+}
+/*
+===============================================================
+block2
+===============================================================
+*/
+
+.content{
+	padding-top: 80px;
+
+}
+
+.shop{
+	max-width: 100%;
+	height: auto;
+	position: relative;
+
+}
+
+.shop_carhartt{
+
+}
+
+.shop_adidas img{
+	padding-top: 32px;
+}
+
+.bottom_content{
+	padding-top: 32px;
+}
+
+.brand_sg	{
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	z-index: 1;
+	left: 60px;
+	top: 55%;
+}
+
+.brand_name_sg {
+	position: absolute;
+	z-index: 1;
+	left: 60px;
+	top: 73%;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 60px;
+	font-family: "ProximaNovaLight";
+}
+
+.brand_sh{
+	position: absolute;
+	height: 80px;
+	width: 70px;
+	z-index: 1;
+	left: 45px;
+	top: 12%;
+}
+
+.brand_name_sh{
+	position: absolute;
+	z-index: 1;
+	left: 45px;
+	top: 25%;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 30px;
+	font-family: "ProximaNovaLight";
+	text-align: left;
+}
+
+.brand_adidas{
+	position: absolute;
+	height: 100px;
+	width: 110px;
+	z-index: 1;
+	left: 45px;
+	top: 64%;
+}
+
+.brand_name_adidas{
+	position: absolute;
+	z-index: 1;
+	left: 45px;
+	top: 80%;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 30px;
+	font-family: "ProximaNovaLight";
+	text-align: left;
+}
+
+.brand_deep{
+	position: absolute;
+	z-index: 1;
+	left: 45px;
+	top: 64%;
+}
+
+.brand_name_deep{
+	position: absolute;
+	z-index: 1;
+	left: 52px;
+	top: 74%;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 32px;
+	font-family: "ProximaNovaLight";
+	text-align: left;
+}
+
+.brand_palace{
+	position: absolute;
+	z-index: 1;
+	left: 45px;
+	top: 64%;
+	height: 15%;
+}
+
+.brand_name_tech{
+	position: absolute;
+	z-index: 1;
+	left: 52px;
+	top: 74%;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 32px;
+	font-family: "ProximaNovaLight";
+	text-align: left;
+}
+
+.brand_tech{
+	position: absolute;
+	z-index: 1;
+	left: 45px;
+	top: 64%;
+	height: 15%;
+}
+
+/*
+=================================================================
+inst
+=================================================================
+*/
+
+.instagram{
+	background: url(../images/inst.png);
+	min-height: 983px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	-webkit-background-size: cover;
+	background-size: cover; 
+	margin-top: 80px;
+}
+
+.test{
+	min-width: 420px;
+	min-height: 420px;
+	position: relative;
+	padding: 0;
+}
+
+.instagram {
+	text-align: center;
+	padding-top: 380px;
+	letter-spacing: 40px;
+	font-family:"ProximaNovaLight";
+}
+
+.instagram a {
+	font-size: 30px;
+	color: #f84545;
+	font-family:"ProximaNovaBold";
+	letter-spacing: 10px;
+}
+
+.instagram a:hover{
+	color: #fff;
+}
+
+/*
+===============================================================
+footer
+===============================================================
+*/
+
+footer{
+	min-height: 150px;
+	margin: 0 100px;
+	color: #000;
+	font-size: 18px;
+	font-family:"ProximaNovaSemibold";
+}
+
+.footer_nav{
+	padding-top: 75px;
+}
+
+.footer_nav ul{
+	padding: 0;
+	margin: 0;
+	float: left;
+	word-spacing: 70px;
+
+}
+
+.footer_nav li {
+	list-style-type: none;
+	display: inline-block;
+	text-transform: uppercase;
+
+}
+
+.footer_nav a{
+	color: #000;
+}
+
+.footer_nav a:hover{
+	color: #f84545;
+}
+
+.soc_icon {
+	float: right;
+	word-spacing: 20px;
+	font-size: 18px;
+}
+
+/* 
+==================================================
+Contact us
+==================================================
+*/
+
+.contacts{
+	min-height: 400px;
+	background-color: #fdfdfd;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: #000;
+	padding-top: 60px;
+}
+
+.contact{
+	margin: 10px 0px 40px 0px;
+}
+
+.contact p{
+	color: #000;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+.contact span{
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 2px;
+
+}
+
+.contact i{
+	padding-right: 5px;
+	color: #FF6347;
+}
+
+.form-group{
+	display: block;
+}
+
+.form-group span{
+	font-size: 24px;
+	color: #FF6347;
+}
+
+.form-group input, textarea{
+	display: block;
+	width: 100%;
+	border:1px solid #ccc;
+	margin-top: 5px;	
+	margin-bottom: 20px;
+	line-height: 40px;
+	text-indent: 10px;
+	letter-spacing: 2px;
+	color: #888;
+	outline: none;
+}
+
+.form-group input:focus, textarea:focus{
+	border:1px solid #FF6347;
+}
+
+.main-form button{
+	background-color: #FF6347;
+	border: none;
+	color: #fff;
+	line-height: 40px;
+	padding: 0 20px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin: 10px 0px 20px 0px;
+}

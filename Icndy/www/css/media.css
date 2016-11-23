@@ -1,0 +1,177 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+
+	.brand_deep {
+	left: 39px;
+top: 64%;
+width: 60%;
+	}
+
+	.brand_name_deep {
+		left: 43px;
+		top: 71%;
+		font-size: 30px;   
+	}
+
+	.brand_name_adidas {
+    top: 77%;
+}
+
+	.brand_adidas {
+    top: 60%;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+
+	.top_line_mnu ul{
+		display: none;
+		float: left;
+	}
+
+	.top_line_mnu ul li{
+		text-align: left;
+	}
+
+	.shop{
+		max-width: 64%;
+		height: auto;
+		position: relative;
+		padding-bottom: 50px;
+	}
+
+	.shop_adidas img {
+		padding:0px;
+	}
+
+	.brand_sg {
+		position: absolute;
+		height: 100px;
+		width: 100px;
+		z-index: 1;
+		left: 40px;
+		top: 40%;
+	}
+
+	.brand_name_sg {
+		position: absolute;
+		z-index: 1;
+		left: 41px;
+		top: 63%;
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 39px;
+		font-family: "ProximaNovaLight";
+	}
+
+
+.brand_adidas {
+    position: absolute;
+    height: 100px;
+    width: 130px;
+    z-index: 1;
+    left: 45px;
+    top: 64%;
+}
+
+.brand_deep {
+    left: 36px;
+    top: 64%;
+    width: 34%;
+}
+
+.brand_palace {
+    top: 59%;   
+}
+
+footer{
+	 margin: 0 20px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+
+	h1{
+		letter-spacing: 15px;
+	}
+
+	.nav_icon {
+		padding-right: 20px;
+	}
+
+	.top_line_mnu ul{
+		display: none;
+		padding-left: 20px;
+	}
+
+	.logo{
+		padding-left: 20px;
+	}
+
+	
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+	h1{
+		letter-spacing: 5px;
+	}
+
+
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	.top_line_mnu ul{
+		display: inline-block !important;
+	}
+
+}
